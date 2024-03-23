@@ -1,0 +1,39 @@
+/* ____________parent component_________________ */
+.HeroComponent {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+/* __________h1 component of hero _____________ */
+.heroWord h1 {
+  font-size: 67.5px;
+  line-height: 84.375px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #35323e;
+}
+/* _____________p component of hero_____________  */
+.heroWord p {
+  font-size: 20.25px;
+  line-height: 31.5px;
+  text-align: left;
+  letter-spacing: normal;
+  color: #9e9aa7;
+}
+/* ___________img component of hero_______________ */
+.HeroComponent img {
+  width: 50%;
+}
+/* ___________button component of hero_____________ */
+.HeroButton {
+  background-color: #2acfcf;
+  color: white;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border: none;
+  border-radius: 25px;
+  width: 30%;
+  font-weight: 800;
+  text-align: center;
+  font-size: 0.95rem;
+}

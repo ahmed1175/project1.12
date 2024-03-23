@@ -1,0 +1,52 @@
+/* __________left section component________________ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.headerspan {
+  display: flex;
+  gap: 10px;
+  padding-left: 3rem;
+  align-items: center;
+  cursor: pointer;
+  color: #9e9aa7;
+}
+/* __________left section component hover________________ */
+.headerspan1:hover {
+  color: black;
+}
+/* ____________right section  component______________ */
+.buttonheader {
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #2acfcf;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 1rem;
+}
+.bt-header {
+  display: flex;
+  gap: 15px;
+}
+.buttonheader1 {
+  color: #9e9aa7;
+  border: none;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+/* ___________hover of right component_____________  */
+.buttonheader1:hover {
+  color: black;
+  transition: 500ms;
+}
+.buttonheader:hover {
+  opacity: 0.6;
+  transition: 500ms;
+}

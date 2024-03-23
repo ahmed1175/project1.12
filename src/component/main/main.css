@@ -1,0 +1,87 @@
+/* ________input  component________________________ */
+.FormMain {
+  background-color: #3b3054;
+  border-radius: 9px;
+  box-shadow: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  border-radius: 15px;
+}
+.FormMain input.text {
+  padding: 1.2rem;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.FormMain input.submit {
+  width: 10%;
+  background-color: #2acfcf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 18px;
+}
+/* _________header component ______________ */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-header h1 {
+  color: #35323e;
+}
+.main-header p {
+  color: #9e9aa7;
+  width: 50%;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+/* ______________ card component_________________________  */
+.card {
+  width: 40vh;
+  height: fit-content;
+  padding: 0.35rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+
+}
+.MainCard {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.card h3 {
+  
+  display: flex;
+  justify-content: center;
+}
+.card p {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: normal;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+}
+.card div{
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  background-color: #3b3054;
+  padding: 1rem;
+  border-radius: 25px;
+}

@@ -1,0 +1,62 @@
+/* ___________header of footer component_________________________  */
+.headerFooter {
+  background-color: #3b3054;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.headerFooter h1 {
+  color: white;
+}
+.headerFooter button {
+  padding: 1rem;
+  background-color: #2acfcf;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  
+  font-size: 15px;
+}
+/* _________footer component_________________________ */
+.Footer {
+  background-color: #232127;
+}
+.FooterStyle {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+/* __________list component __________________________ */
+.list {
+  display: flex;
+  gap: 5px;
+  color: white;
+  align-items: start;
+  list-style: none;
+}
+.list1 li {
+  margin: 5px;
+  list-style: none;
+  padding: 10px;
+  font-size: 15px;
+  color: #9e9aa7;
+  cursor: pointer;
+}
+.list1 li:hover {
+  color: white;
+}
+.list1 ul {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 600;
+}
+/* ______________icons component ___________________________ */
+.icon img {
+  margin: 5px;
+}
