@@ -47,6 +47,7 @@
   color: #9e9aa7;
   cursor: pointer;
   user-select: none;
+  padding-top:3px
 }
 .list1 li:hover {
   color: white;
