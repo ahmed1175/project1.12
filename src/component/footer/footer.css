@@ -35,18 +35,18 @@
 /* __________list component __________________________ */
 .list {
   display: flex;
-  gap: 5px;
   color: white;
-  align-items: start;
+  align-items: flex-start; 
   list-style: none;
 }
 .list1 li {
-  margin: 5px;
+  margin: 2px 0;
   list-style: none;
-  padding: 10px;
+  padding: 4px;
   font-size: 15px;
   color: #9e9aa7;
   cursor: pointer;
+  user-select: none;
 }
 .list1 li:hover {
   color: white;
@@ -55,6 +55,7 @@
   font-size: 16px;
   padding: 5px;
   font-weight: 600;
+  list-style-type: none;
 }
 /* ______________icons component ___________________________ */
 .icon img {
